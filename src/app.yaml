@@ -11,6 +11,10 @@ handlers:
   login: admin
   secure: always
 
+- url: /static
+  static_dir: static
+  secure: always
+
 - url: /static/admin/
   static_dir: sitepackages/django/contrib/admin/static/admin/
   secure: always
