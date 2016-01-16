@@ -122,5 +122,6 @@ CSP_SCRIPT_SRC = ("'self'", "*.googleanalytics.com", "*.google-analytics.com", "
 CSP_IMG_SRC = ("'self'", "data:", "s.ytimg.com", "*.googleusercontent.com", "*.gstatic.com")
 CSP_CONNECT_SRC = ("'self'", "plus.google.com", "www.google-analytics.com")
 
+from .constants import *
 
 from djangae.contrib.gauth.settings import *
